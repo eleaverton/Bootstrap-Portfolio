@@ -1,0 +1,169 @@
+/* CSS for all pages of the Portfolio Assignment - hw2. 
+Significantly less CSS when using bootstrap */
+
+body{
+	height:100%;
+	background-image: url(../images/vintage-leaves.png);
+}
+
+/*navbar edits*/
+
+.TopName {
+	background-color: #4aaaa5;
+	float:left;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: 25px;
+	text-align: center;
+	color: #ffffff;
+	font-family:'Georgia', Times, Times New Roman, serif;
+	
+}
+
+.navbar-nav
+ {
+	padding-top: 50px;
+	margin-right: 150px;
+}
+
+
+li {
+	border-right: 1px solid #bbb;
+}
+
+
+/*content part of page for all three*/
+
+#main-bio, #contact-message, #portfolio-page {
+	padding:15px;
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+	margin-top:15px;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	}
+
+
+h2 {
+	color:#4aaaa5;
+	width: 100%;
+	font-family:'Georgia', Times, Times New Roman, serif;
+	padding-bottom: 15px;
+	border-bottom: 2px solid #cccccc;
+}
+
+#connection{
+	border: 1px solid #cccccc;
+	width:100%;
+	padding:15px;
+	background-color: #ffffff;
+	margin-top: 15px;
+	margin-right: 615px;
+}
+
+h3{
+	
+	color:#4aaaa5;
+	font-family:'Georgia', Times, serif;
+	border-bottom: 2px solid #cccccc;
+}
+
+#github{
+	width: 40px;
+	margin-left: 15px;
+}
+
+#linkedin{
+	width: 40px;
+	margin-left: 15px;
+}
+
+#stackoverflow {
+	width: 40px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+/*end content part of page
+
+/*footer for all three*/
+
+footer {
+	background: #666666;
+	padding: 25px;
+	font-size: 10px;
+  	text-align: center;
+  	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  	color: #ffffff;
+  	border-top: 4px solid #4aaaa5;
+  	margin-top:20px;
+  	/*position:absolute;*/
+  	bottom:0;
+  	width:100%;
+}
+
+/* end footer
+
+/* specific to index.html*/
+
+#bio-image{
+	float: left;
+	margin: 10px;
+	width: 200px;
+}
+
+
+/*specific to contact.html*/
+/*form {
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+textarea{
+	margin-top: 8px;
+	resize: none;
+}
+
+input[type=submit] {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	padding: 8px;
+	border: none;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	margin-top: 15px;
+}*/
+
+/*specific to portfolio.html*/
+
+.image1, .image2, .image3, .image4, .image5 {
+	margin:15px;
+	position: relative;
+	width: 40%;
+	float: left;
+}
+
+#hangmanpic, #rpgpic, #triviapic, #rutgerspic, #rockpic{
+	width: 100%;
+	
+}
+
+#hangman, #rpg-game, #trivia-game, #rutgers, #rock-paper{
+	background: #4aaaa5;
+	color: #ffffff;
+	text-align:center;
+	position: absolute;
+	top: 70%;
+	width: 100%;
+	padding: 5px;
+
+}
+
+
+
