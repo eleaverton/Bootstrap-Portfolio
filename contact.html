@@ -10,6 +10,7 @@
 </head>
 
 <body> 
+	<!--Bootstrap navbar-->
 	<nav class="navbar navbar-default" role="navigation">
 		<div class="container-fluid">
 			<div class="navbar-header">
@@ -29,21 +30,28 @@
 		</div>
 
 	</nav>
-
+	
+	<!-- Container surrounds everything between navbar and footer. Within container is a row with two columns in it, one for the contact page and one for the connect section-->
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-8 col-xs-12">
+			<div class="col-md-8 col-sm-12 col-xs-12">
 				<section id = "contact-message"> 
 					<h2> Contact </h2>
 
 					<form>
-						Name: <br>
-						<input type = "text" name = "username" placeholder = "John Smith"> <br>
-						Email: <br>
-						<input type = "text" name = "email" placeholder = "example@gmail.com"> <br>
-						Message: <br>
-						<textarea class = "message" rows = 10 cols = 62> </textarea> <br>
-						<input type="submit" value="Submit">
+					  <div class="form-group">
+					    <label for="exampleInputPassword1">Name:</label>
+					    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Jane Smith">
+					  </div>
+					  <div class="form-group">
+					    <label for="exampleInputEmail1">Email:</label>
+					    <input type="name" class="form-control" id="exampleInputEmail1" placeholder="example@gmail.com">
+					  </div>
+					  Message:
+					<textarea class="form-control" rows="3">
+					</textarea>
+					<br>
+					  <button type="submit" class="btn btn-default">Submit</button>
 					</form>
 				</section>
 			</div>
@@ -67,7 +75,7 @@
 		</div>
 	</div>
 
-	<footer class="footer">
+	<footer class="footer1">
 			<center>&copy; copyright 2017 Liz Leaverton</center>
 	</footer>
 
